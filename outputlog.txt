@@ -1,0 +1,14 @@
+TESTS WITH ERRORS 
+test05 (gradingtests.UnitTests)
+Traceback (most recent call last):
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/gradingtests.py", line 69, in test05
+    answer = KB.kb_ask(ask1)
+  File "/Users/k2i/academics/automatedgradingapp/app/testing/kb-basics/student_code.py", line 61, in kb_ask
+    elif  (is_var(q_statement.terms[0]) and not is_var(q_statement.terms[1])):
+IndexError: list index out of range
+
+-------------------------------
+TESTS FAILED  
+-------------------------------
+TESTS SKIPPED 
+-------------------------------
